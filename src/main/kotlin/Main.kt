@@ -1,3 +1,4 @@
+import functions.BasicFunctions
 import introduction.ArithmeticOperators
 import introduction.declareVars
 import introduction.numericTypes
@@ -17,6 +18,19 @@ fun main(args: Array<String>) {
     declareVars()
     numericTypes()
 
+    arithmetic()
+
+    basicFunctions()
+}
+
+fun basicFunctions() {
+    val basicFunctions = BasicFunctions()
+    basicFunctions.helloWorld()
+    basicFunctions.functionWithoutReturn()
+    println("Function sum: ${basicFunctions.sum(2,3)}")
+}
+
+private fun arithmetic() {
     val arithmeticOperators = ArithmeticOperators()
     arithmeticOperators.sum()
     arithmeticOperators.multiply()
