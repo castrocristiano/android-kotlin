@@ -1,3 +1,5 @@
+package introduction
+
 /**
  *
  */
@@ -8,4 +10,6 @@ fun numericTypes() {
     println("Int MAX ${Int.MAX_VALUE} - MIN ${Int.MIN_VALUE}")
     println("Short MAX ${Short.MAX_VALUE} - MIN ${Short.MIN_VALUE}")
     println("Byte MAX ${Byte.MAX_VALUE} - MIN ${Byte.MIN_VALUE}")
+
+    println("UInt MAX ${UInt.MAX_VALUE} - MIN ${UInt.MIN_VALUE}")
 }

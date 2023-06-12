@@ -1,3 +1,8 @@
+import functions.BasicFunctions
+import introduction.ArithmeticOperators
+import introduction.declareVars
+import introduction.numericTypes
+
 /**
  * Function Doc
  */
@@ -8,10 +13,44 @@ fun main(args: Array<String>) {
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
     println("Program arguments: ${args.joinToString()}")
-    println()
-    firstFunPrint()*/
+    println()*/
+    firstFunPrint()
+
     declareVars()
+
     numericTypes()
+
+    arithmetic()
+
+    basicFunctions()
+}
+
+fun basicFunctions() {
+    val basicFunctions = BasicFunctions()
+
+    basicFunctions.helloWorld()
+
+    basicFunctions.functionWithoutReturn()
+
+    println("Function sum: ${basicFunctions.sum(2,3)}")
+
+    basicFunctions.singleLineFunctions()
+
+    basicFunctions.strings()
+
+    basicFunctions.mathFun()
+}
+
+private fun arithmetic() {
+    val arithmeticOperators = ArithmeticOperators()
+
+    arithmeticOperators.sum()
+
+    arithmeticOperators.multiply()
+
+    arithmeticOperators.division()
+
+    arithmeticOperators.mod()
 }
 
 fun firstFunPrint() {
