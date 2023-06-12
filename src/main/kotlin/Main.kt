@@ -15,7 +15,9 @@ fun main(args: Array<String>) {
     println("Program arguments: ${args.joinToString()}")
     println()*/
     firstFunPrint()
+
     declareVars()
+
     numericTypes()
 
     arithmetic()
@@ -25,16 +27,29 @@ fun main(args: Array<String>) {
 
 fun basicFunctions() {
     val basicFunctions = BasicFunctions()
+
     basicFunctions.helloWorld()
+
     basicFunctions.functionWithoutReturn()
+
     println("Function sum: ${basicFunctions.sum(2,3)}")
+
+    basicFunctions.singleLineFunctions()
+
+    basicFunctions.strings()
+
+    basicFunctions.mathFun()
 }
 
 private fun arithmetic() {
     val arithmeticOperators = ArithmeticOperators()
+
     arithmeticOperators.sum()
+
     arithmeticOperators.multiply()
+
     arithmeticOperators.division()
+
     arithmeticOperators.mod()
 }
 
