@@ -53,7 +53,7 @@ fun years(years: UShort) {
 
 fun stringSize(str: String) = str.length
 
-fun cubeCalc(num: Double) = num.pow(3)
+fun cubeCalc(num: Int) = num.toDouble().pow(3)
 
 fun toKm(miles: Double) = miles * 1.6
 
@@ -68,10 +68,11 @@ fun main() {
     val str = "ABC"
     println("\"$str\" size is ${stringSize(str)}")
 
-    val num = 2.0
+    val num = 2
     println("num ^3 is ${cubeCalc(num)}")
 
-    println("$num mile(s) is ${toKm(num)}km")
+    val miles = 2.5
+    println("$miles mile(s) is ${toKm(miles)}km")
 
     replaceString("Apple is a great fruit. Very delicious!")
 }
