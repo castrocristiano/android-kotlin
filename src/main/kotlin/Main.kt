@@ -1,3 +1,4 @@
+import fluxcontrol.exercises.ifControl
 import functions.BasicFunctions
 import introduction.ArithmeticOperators
 import introduction.declareVars
@@ -23,6 +24,8 @@ fun main(args: Array<String>) {
     arithmetic()
 
     basicFunctions()
+
+    ifControl()
 }
 
 fun basicFunctions() {
