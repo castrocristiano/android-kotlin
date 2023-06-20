@@ -2,6 +2,7 @@ import exceptions.exampleNullSafe
 import exceptions.exceptions
 import fluxcontrol.exercises.ifControl
 import functions.BasicFunctions
+import functions.stringsElvis
 import introduction.ArithmeticOperators
 import introduction.declareVars
 import introduction.numericTypes
@@ -30,6 +31,8 @@ fun main(args: Array<String>) {
     ifControl()
 
     exceptions()
+
+    stringsElvis()
 }
 
 fun basicFunctions() {
