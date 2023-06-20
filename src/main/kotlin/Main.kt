@@ -2,6 +2,7 @@ import exceptions.exampleNullSafe
 import exceptions.exceptions
 import fluxcontrol.exercises.ifControl
 import functions.BasicFunctions
+import functions.callCountXO
 import functions.letFunction
 import functions.stringsElvis
 import introduction.ArithmeticOperators
@@ -36,6 +37,8 @@ fun main(args: Array<String>) {
     stringsElvis()
 
     letFunction()
+
+    callCountXO()
 }
 
 fun basicFunctions() {
