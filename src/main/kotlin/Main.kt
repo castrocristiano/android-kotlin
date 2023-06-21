@@ -1,3 +1,4 @@
+import classes.personFactory
 import exceptions.exampleNullSafe
 import exceptions.exceptions
 import fluxcontrol.exercises.ifControl
@@ -40,9 +41,11 @@ fun main(args: Array<String>) {
 
     calcAverage()
 
-    callAverageGeneric()*/
+    callAverageGeneric()
 
-    callValues()
+    callValues()*/
+
+    personFactory()
 }
 
 fun basicFunctions() {
