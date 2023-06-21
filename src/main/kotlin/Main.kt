@@ -1,11 +1,6 @@
-import exceptions.exampleNullSafe
-import exceptions.exceptions
-import fluxcontrol.exercises.ifControl
+import classes.callClasses
 import functions.*
-import generictypes.callValues
 import introduction.ArithmeticOperators
-import introduction.declareVars
-import introduction.numericTypes
 
 /**
  * Function Doc
@@ -40,9 +35,11 @@ fun main(args: Array<String>) {
 
     calcAverage()
 
-    callAverageGeneric()*/
+    callAverageGeneric()
 
-    callValues()
+    callValues()*/
+
+    callClasses()
 }
 
 fun basicFunctions() {
