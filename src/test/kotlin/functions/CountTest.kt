@@ -1,3 +1,5 @@
+package functions
+
 import functions.countXO
 import functions.exceptionMethod
 import org.junit.jupiter.api.*
