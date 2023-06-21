@@ -1,10 +1,7 @@
 import exceptions.exampleNullSafe
 import exceptions.exceptions
 import fluxcontrol.exercises.ifControl
-import functions.BasicFunctions
-import functions.callCountXO
-import functions.letFunction
-import functions.stringsElvis
+import functions.*
 import introduction.ArithmeticOperators
 import introduction.declareVars
 import introduction.numericTypes
@@ -19,7 +16,7 @@ fun main(args: Array<String>) {
     // Try adding program arguments via Run/Debug configuration.
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
     println("Program arguments: ${args.joinToString()}")
-    println()*/
+    println()
     firstFunPrint()
 
     declareVars()
@@ -39,6 +36,10 @@ fun main(args: Array<String>) {
     letFunction()
 
     callCountXO()
+*/
+    calcAverage()
+
+    callAverageGeneric()
 }
 
 fun basicFunctions() {
