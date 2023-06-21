@@ -2,6 +2,7 @@ import exceptions.exampleNullSafe
 import exceptions.exceptions
 import fluxcontrol.exercises.ifControl
 import functions.*
+import generictypes.callValues
 import introduction.ArithmeticOperators
 import introduction.declareVars
 import introduction.numericTypes
@@ -36,10 +37,12 @@ fun main(args: Array<String>) {
     letFunction()
 
     callCountXO()
-*/
+
     calcAverage()
 
-    callAverageGeneric()
+    callAverageGeneric()*/
+
+    callValues()
 }
 
 fun basicFunctions() {
