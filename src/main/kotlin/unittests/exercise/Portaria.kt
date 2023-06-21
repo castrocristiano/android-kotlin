@@ -1,4 +1,4 @@
-package unittests
+package unittests.exercise
 
 const val NEGADO_ = "Negado."
 

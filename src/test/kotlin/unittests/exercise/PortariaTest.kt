@@ -1,4 +1,4 @@
-package unittests
+package unittests.exercise
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
