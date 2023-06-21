@@ -1,16 +1,20 @@
 package unittests.exercise
 
+import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
 class PortariaTest {
     @Test
     fun testPortariaNegadoByAge() {
-        assertEquals(portaria(0, "", ""), NEGADO_)
-        assertEquals(portaria(17, "", ""), NEGADO_)
-        assertEquals(portaria(19, "", ""), NEGADO_)
-        assertEquals(portaria(19, "NOT PREMIUM", ""), NEGADO_)
-        assertEquals(portaria(19, PREMIUM, "XV654s4asdqweq"), NEGADO_)
+        Assertions.assertAll(
+            { assertEquals(portaria(0, "", ""), NEGADO_) },
+            { assertEquals(portaria(17, "", ""), NEGADO_) },
+            { assertEquals(portaria(19, "", ""), NEGADO_) },
+            { assertEquals(portaria(19, "NOT PREMIUM", ""), NEGADO_) },
+            { assertEquals(portaria(19, PREMIUM, "XV654s4asdqweq"), NEGADO_) }
+        )
+
     }
 
     @Test
