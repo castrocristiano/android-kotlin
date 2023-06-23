@@ -51,5 +51,26 @@ fun callClasses() {
     println(f2.toString())
 
     println(f1.equals(f2))
+
+    callWith()
+
+    lateInit()
+}
+
+fun callWith() {
+    val p = People(1985, "Frank")
+
+    with(p) {
+        sleep()
+        wakeUp()
+    }
+}
+
+fun lateInit() {
+    val recipe = Recipe()
+
+    recipe.generateRecipe()
+
+    println(recipe.instructions)
 }
 
