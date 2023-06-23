@@ -12,5 +12,5 @@ fun main() {
 
     computer.installSoftware()
 
-    computer.off()
+    computer.off("Goodbye!")
 }

@@ -9,13 +9,13 @@ open class Electronic(var manufacturer: String) {
     fun on() {
         if (!isOn)
             isOn = true
-        println("Is on")
+        println("Electronic is on")
     }
 
-    fun off() {
+    open fun off() {
         if (isOn)
             isOn = false
-        println("Is off")
+        println("Electronic is off")
     }
 
 
