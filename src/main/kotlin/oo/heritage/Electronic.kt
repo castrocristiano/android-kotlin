@@ -1,4 +1,4 @@
-package oo
+package oo.heritage
 
 
 open class Electronic(var manufacturer: String) {

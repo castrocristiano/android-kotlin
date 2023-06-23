@@ -1,4 +1,4 @@
-package oo
+package oo.heritage
 
 class Computer(manufacturer: String) : Electronic(manufacturer) {
     fun installSoftware() {
