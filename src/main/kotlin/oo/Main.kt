@@ -1,5 +1,6 @@
 package oo
 
+import oo.abstracts.Wild
 import oo.heritage.Computer
 import oo.heritage.ExampleMath
 
@@ -7,6 +8,8 @@ fun main() {
     callHeritageExample()
 
     callExampleMath()
+
+    anonymousClass()
 }
 
 private fun callHeritageExample() {
@@ -38,5 +41,21 @@ private fun callExampleMath() {
     val e = ExampleMath("Value param")
 
     println(e.name)
+}
+
+private fun anonymousClass() {
+    val wildAnimal = object : Wild {
+        override var test: String
+            get() = "test String"
+            set(value) {}
+
+        override fun attack() {
+            println("Wooooow!")
+        }
+    }
+
+    wildAnimal.attack()
+
+    println("Test from Wild \"${wildAnimal.test}\"")
 }
 
