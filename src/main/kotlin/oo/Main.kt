@@ -55,6 +55,7 @@ private fun anonymousClass() {
     }
 
     wildAnimal.attack()
+
     println("Test from Wild \"${wildAnimal.test}\"")
 }
 
